@@ -1,0 +1,11 @@
+
+---PREMISE---
+
+-creatues will have to keep fed during the day, and will have rules for death / birth
+
+---FEATURES---
+
+-weather cycle
+-day/night cycle
+-food system
+-illness
