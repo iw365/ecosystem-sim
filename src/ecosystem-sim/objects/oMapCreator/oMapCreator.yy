@@ -30,6 +30,9 @@
   "properties": [],
   "solid": false,
   "spriteId": null,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sMarker",
+    "path": "sprites/sMarker/sMarker.yy",
+  },
   "visible": false,
 }
