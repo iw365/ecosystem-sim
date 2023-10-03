@@ -20,9 +20,9 @@ function create_island_method_1() {
             var current_x = offsetX + (spacingX * xx);
             var current_y = offsetY + (spacingY * yy);
             
-			xPerc = (abs((oWindowManager.screen_width/2) - current_x) / (oWindowManager.screen_width/2) * 100);
-			yPerc = (abs((oWindowManager.screen_height/2) - current_y) / (oWindowManager.screen_height/2) * 100);
-			avgPerc = round((xPerc + yPerc) / 2)
+			var xPerc = (abs((oWindowManager.screen_width/2) - current_x) / (oWindowManager.screen_width/2) * 100);
+			var yPerc = (abs((oWindowManager.screen_height/2) - current_y) / (oWindowManager.screen_height/2) * 100);
+			var avgPerc = round((xPerc + yPerc) / 2)
 			
 			for (var i = 0; i < 5; i++) {
     			var randomNumber = random(100);
@@ -44,10 +44,14 @@ function create_island_method_1() {
 				instance_create_layer(current_x, current_y, "Instances", oGround);
 			}
             // show_debug_message($"created point at {current_x}, {current_y}");
-			show_debug_message(avgPerc);
+			// show_debug_message(avgPerc);
 			
 			sum = 0;
 			avgRand = 0;
+			
+			var xPerc = 0;
+			var yPerc = 0;
+			var avgPerc = 0;
         }
     }
 }
